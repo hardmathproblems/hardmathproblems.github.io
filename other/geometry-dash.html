@@ -22,7 +22,15 @@
         <li class="right"><a href="/news.html">Newsletter</a></li>
         <li class="right"><a href="/index.html">Start</a></li>
         <li class="left"><a href="/index.html" style="font-size: 22px;"><img src="/img/favicon.png" class="logo" alt="">&nbsp;&nbsp;Classboard</a></li>
-        <li class="left"><button id="theme-toggle-button">Dark Mode</button></li>
+        <li class="left">
+            <select id="theme-selector">
+                <option value="style.css">Light Theme</option>
+                <option value="dark.css">Dark Theme</option>
+                <option value="matrix.css">Matrix Theme</option>
+                <option value="future.css">Future Theme</option>
+                <option value="blue.css">Blue Theme</option>
+            </select>
+        </li>
     </ul>
     <br><br><h1 class="title">Geometry Dash</h1>
     <p style="font-size: 18px; font-weight: bold;">Ported to scratch by CrystalKeeper7 and Griffpatch!</p>
@@ -193,6 +201,6 @@
         </a>
     </div>
 </div>
-<script src="/theme-switcher-2.js"></script>
+<script src="/theme-toggle.js"></script>
 </body>
 </html>

@@ -8,7 +8,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: RobotoCondensed;
-    background-color: #1d1d1d;
+    background-color: rgb(1, 27, 51);
 }
 
 @font-face {
@@ -430,13 +430,13 @@ li a {
 }
 
 li a:hover {
-    background-color: rgb(56, 56, 56);
+    background-color: rgba(30, 143, 255, 0.356);
     border-radius: 10px;
 
 }
 
 ul {
-    background-color: #1c1c1c;
+    background-color: rgb(1, 27, 51);
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -458,7 +458,7 @@ ul {
     transform: none;
     vertical-align: -10px;
     display: flex;
-    transform: translate(0, -15px);
+    transform: translate(0, -10px);
 }
 
 .left {
@@ -486,7 +486,7 @@ select {
     border-radius: 15px;
     height: 40px;
     width: 175px;
-    background-color: #1c1c1c;
+    background-color: rgb(1, 27, 51);
     color: white;
     font-family: JetBrains;
     text-align: center;

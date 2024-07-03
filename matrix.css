@@ -8,7 +8,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: RobotoCondensed;
-    background-color: #1d1d1d;
+    background-color: rgb(0, 0, 0);
 }
 
 @font-face {
@@ -27,7 +27,6 @@ body {
 
 .nav-button {
     border-radius: 10px;
-    border: transparent;
     font-size: 18px;
     font-weight: medium;
     margin: 7.5px;
@@ -37,7 +36,7 @@ body {
 }
 
 h1 {
-    color: white;
+    color: rgb(0, 255, 55);
 }
 
 button {
@@ -46,12 +45,14 @@ button {
     border-radius: 10px;
     font-size: 18px;
     margin: 10px;
-    border-color: transparent;
-    background-color: rgb(14, 110, 206);
-    color: white;
+    background-color: transparent;
+    color: lime;
     font-family: RobotoCondensed;
     transition: 0.3s;
     cursor: pointer;
+    border-width: 1px;
+    border-color: lime;
+    border-style: solid;
 }
 
 button:hover {
@@ -65,6 +66,7 @@ button:hover {
 
 .link-group-label {
     font-size: 30px;
+    color: lime;
 }
 
 a {
@@ -87,6 +89,7 @@ h2 {
     color: transparent;
     background-color: transparent;
     cursor: default;
+    border: none;
 }
 
 .copyright {
@@ -99,12 +102,12 @@ h2 {
 }
 
 .lnk {
-    color: dodgerblue;
+    color: lime;
     text-decoration: underline;
 }
 
 .email {
-    color: dodgerblue;
+    color: lime;
     text-decoration: underline;
 }
 
@@ -420,7 +423,7 @@ li a {
     display: block;
     padding: 13px;
     text-decoration: none;
-    color: white;
+    color: lime;
     text-align: center;
     font-size: 17px;
     transition: 0.5s;
@@ -436,12 +439,13 @@ li a:hover {
 }
 
 ul {
-    background-color: #1c1c1c;
+    background-color: black;
     margin: 0;
     padding: 0;
     overflow: hidden;
     padding-top: 5px;
     font-family: RobotoCondensed;
+    color: lime;
 }
 
 .active {
@@ -463,6 +467,7 @@ ul {
 
 .left {
     float: left;
+    color: lime;
 }
 
 #theme-toggle-button {
@@ -486,8 +491,8 @@ select {
     border-radius: 15px;
     height: 40px;
     width: 175px;
-    background-color: #1c1c1c;
-    color: white;
+    background-color: black;
+    color: lime;
     font-family: JetBrains;
     text-align: center;
     font-size: 15px;

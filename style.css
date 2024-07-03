@@ -427,7 +427,7 @@ li a {
     transition: 0.5s;
     font-family: RobotoCondensed;
     position: relative;
-    transform: translate(0, 10px);
+    transform: translate(0, 7px);
 }
 
 li a:hover {
@@ -472,4 +472,22 @@ ul {
 
 #game-area {
     display: block;
+}
+
+select {
+    border-radius: 15px;
+    height: 40px;
+    width: 175px;
+    background-color: #1c1c1c;
+    color: white;
+    font-family: JetBrains;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    transform: translate(0, 8px);
+    margin-left: 10px;
+}
+
+option {
+    white-space: 50px;
 }

@@ -8,7 +8,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: RobotoCondensed;
-    background-color: #1d1d1d;
+    background-color: rgb(0, 0, 0);
 }
 
 @font-face {
@@ -27,7 +27,6 @@ body {
 
 .nav-button {
     border-radius: 10px;
-    border: transparent;
     font-size: 18px;
     font-weight: medium;
     margin: 7.5px;
@@ -37,7 +36,7 @@ body {
 }
 
 h1 {
-    color: white;
+    color: rgb(0, 255, 55);
 }
 
 button {
@@ -46,16 +45,22 @@ button {
     border-radius: 10px;
     font-size: 18px;
     margin: 10px;
-    border-color: transparent;
-    background-color: rgb(14, 110, 206);
-    color: white;
+    background-color: transparent;
+    color: dodgerblue;
     font-family: RobotoCondensed;
     transition: 0.3s;
     cursor: pointer;
+    border-width: 1px;
+    border-color: dodgerblue;
+    border-style: solid;
+    box-shadow: 0px 0px 5px dodgerblue;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 button:hover {
     scale: 105%;
+    box-shadow: 0px 0px 10px dodgerblue;
+    text-shadow: 0px 0px 7px dodgerblue;
 }
 
 .container {
@@ -65,47 +70,63 @@ button:hover {
 
 .link-group-label {
     font-size: 30px;
+    color: dodgerblue;
 }
 
 a {
     color: white;
     text-decoration: none;
     cursor:pointer;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 p {
     line-height: 35px;
     font-size: 23px;
     color: white;
+    text-shadow: 0px 0px 10px dodgerblue;
 }
 
 h2 {
     font-weight: normal;
+    text-shadow: 0px 0px 10px dodgerblue;
 }
 
 .invis {
     color: transparent;
     background-color: transparent;
     cursor: default;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.invis:hover {
+    box-shadow: none;
+    text-shadow: none;
 }
 
 .copyright {
     font-size: 12px;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .ToS {
     font-size: 16px;
     font-weight: bold;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .lnk {
     color: dodgerblue;
     text-decoration: underline;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .email {
     color: dodgerblue;
     text-decoration: underline;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .banner-news {
@@ -114,6 +135,7 @@ h2 {
     font-family: RobotoCondensed;
     text-align: center;
     height: 400px;
+    text-shadow: 0px 0px 3px dodgerblue;
 
 }
 
@@ -122,6 +144,7 @@ h2 {
     font-weight: 800;
     color: white; 
     margin-bottom: -10px;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .banner-changelog {
@@ -133,6 +156,7 @@ h2 {
     object-position: top left;
     width: 100%;
     background-size: cover;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 #fullbright {
@@ -147,6 +171,7 @@ h2 {
     height: 400px;
     width: 100%;
     background-size: cover;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .title {
@@ -155,6 +180,7 @@ h2 {
     color: white;
     margin-bottom: -10px;
     z-index: 2;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .banner-devs {
@@ -163,12 +189,14 @@ h2 {
     font-family: RobotoCondensed;
     height: 400px;
     width: 100%;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .role {
     color: dodgerblue;
     font-weight: bold;
     font-size: 20.5px;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .error {
@@ -176,6 +204,7 @@ h2 {
     font-size: 48px;
     color: rgb(255, 255, 255);
     font-weight: medium;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 @font-face {
@@ -192,10 +221,12 @@ h2 {
     display: flex;
     justify-content: center;
     margin-bottom: -25px;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .err-text {
     text-align: left;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .banner-archives {
@@ -204,6 +235,7 @@ h2 {
     font-family: RobotoCondensed;
     height: 400px;
     width: 100%;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .banner-downloads {
@@ -212,6 +244,7 @@ h2 {
     font-family: RobotoCondensed;
     height: 400px;
     width: 100%;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .material-symbols-rounded {
@@ -228,16 +261,19 @@ h2 {
   font-family: RobotoCondensed;
   height: 400px;
   width: 100%;
+  text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .important {
     font-size: 40px;
     color: rgb(255, 33, 33);
     font-weight: bold;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .client {
     width: 550px;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .banner-shellshock {
@@ -247,6 +283,7 @@ h2 {
     height: 400px;
     width: 100%;
     background-size: cover;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .banner-tpg {
@@ -255,6 +292,7 @@ h2 {
     font-family: RobotoCondensed;
     height: 400px;
     width: 100%;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .banner-brawlstars {
@@ -265,6 +303,7 @@ h2 {
     width: 100%;
     background-size: cover;
     z-index: 0;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 iframe {
@@ -278,6 +317,7 @@ iframe {
     height: 400px;
     width: 100%;
     background-size: cover;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .banner-monkeymart {
@@ -287,6 +327,7 @@ iframe {
     height: 400px;
     width: 100%;
     background-size: cover;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .banner-cookieclicker {
@@ -295,6 +336,7 @@ iframe {
     font-family: RobotoCondensed;
     height: 400px;
     width: 100%;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .banner-retro {
@@ -303,6 +345,7 @@ iframe {
     font-family: RobotoCondensed;
     height: 400px;
     width: 100%;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .banner-gd {
@@ -312,6 +355,7 @@ iframe {
     height: 400px;
     width: 100%;
     background-size: cover;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .card {
@@ -323,25 +367,29 @@ iframe {
     padding: 20px;
     transition: 0.3s;
     border-width: 0.5px;
-    border: white;
+    border: dodgerblue;
     color: white;
     border-style: solid;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 #img {
     height: 150px;
     border-radius: 25px;
     transition: 0.3s;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 #breaker {
     font-size: 10px;
     color: transparent;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .desc {
     font-size: 18px;
     line-height: 30px;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .play {
@@ -355,6 +403,8 @@ iframe {
     padding-right: 30px;
     font-size: 23px;
     transition: 0.3s;
+    text-shadow: 0px 0px 3px dodgerblue;
+    box-shadow: 0px 0px 5px dodgerblue;
 }
 
 .header2 {
@@ -362,11 +412,13 @@ iframe {
     font-weight: 800;
     color: white; 
     margin-bottom: -10px;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .card:hover {
     background-color: rgba(255, 255, 255, 0.411);
     transform: translate(0, -10px);
+    text-shadow: 0px 0px 10px dodgerblue;
 }
 
 .card-invis {
@@ -388,14 +440,17 @@ iframe {
     padding: 20px;
     transition: 0.3s;
     border-width: 2px;
-    border-color: white;
+    border-color: dodgerblue;
     border: white;
     border-style: solid;
+    text-shadow: 0px 0px 3px dodgerblue;
+    box-shadow: 0px 0px 5px dodgerblue;
 }
 
 .card2:hover {
     background-color: rgba(255, 255, 255, 0.411);
     transform: translate(0, -10px);
+    text-shadow: 0px 0px 10px dodgerblue;
 }
 
 .banner-lunch {
@@ -404,23 +459,26 @@ iframe {
     font-family: RobotoCondensed;
     height: 400px;
     width: 100%;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 h2 {
     color: white;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 li {
     display: inline;
     float: left;
     font-family: inter-medium;
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 li a {
     display: block;
     padding: 13px;
     text-decoration: none;
-    color: white;
+    color: dodgerblue;
     text-align: center;
     font-size: 17px;
     transition: 0.5s;
@@ -430,18 +488,19 @@ li a {
 }
 
 li a:hover {
-    background-color: rgb(56, 56, 56);
     border-radius: 10px;
+    text-shadow: 5px 5px 50px dodgerblue;
 
 }
 
 ul {
-    background-color: #1c1c1c;
+    background-color: black;
     margin: 0;
     padding: 0;
     overflow: hidden;
     padding-top: 5px;
     font-family: RobotoCondensed;
+    color: dodgerblue;
 }
 
 .active {
@@ -459,10 +518,12 @@ ul {
     vertical-align: -10px;
     display: flex;
     transform: translate(0, -15px);
+    text-shadow: 0px 0px 3px dodgerblue;
 }
 
 .left {
     float: left;
+    color: dodgerblue;
 }
 
 #theme-toggle-button {
@@ -486,16 +547,20 @@ select {
     border-radius: 15px;
     height: 40px;
     width: 175px;
-    background-color: #1c1c1c;
-    color: white;
+    background-color: black;
+    color: dodgerblue;
     font-family: JetBrains;
     text-align: center;
     font-size: 15px;
     display: flex;
     transform: translate(0, 8px);
     margin-left: 10px;
+    box-shadow: 0px 0px 15px dodgerblue;
+    border-color: dodgerblue;
 }
 
 option {
     white-space: 50px;
+    border-color: dodgerblue;
+    box-shadow: 0px 0px 7.5px dodgerblue;
 }
