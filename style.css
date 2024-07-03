@@ -1,0 +1,475 @@
+::-webkit-scrollbar {
+    width: 0px;
+    border-radius: 10px;
+    color: red;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: RobotoCondensed;
+}
+
+@font-face {
+    font-family: RobotoCondensed;
+    src: url(fonts/RobotoCondensed.ttf);
+}
+
+.banner-home {
+    background-image: url('img/banners/home.png');
+    color: rgb(225, 222, 222);
+    font-family: RobotoCondensed;
+    height: 400px;
+    text-align: center;
+    vertical-align: -200px;
+}
+
+.nav-button {
+    border-radius: 10px;
+    border: transparent;
+    font-size: 18px;
+    font-weight: medium;
+    margin: 7.5px;
+    height: 50px;
+    width: 175px;
+    text-align: center;
+}
+
+button {
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 10px;
+    border-color: transparent;
+    background-color: #0c4466;
+    color: white;
+    font-family: RobotoCondensed;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    scale: 105%;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+}
+
+.link-group-label {
+    font-size: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+p {
+    line-height: 35px;
+    font-size: 23px;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+.invis {
+    color: transparent;
+    background-color: transparent;
+    cursor: default;
+}
+
+.copyright {
+    font-size: 12px;
+}
+
+.ToS {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.lnk {
+    color: #0c4466;
+    text-decoration: underline;
+}
+
+.email {
+    color: #0c4466;
+    text-decoration: underline;
+}
+
+.banner-news {
+    background: url('img/banners/news.gif') center right;
+    color: rgb(225, 222, 222);
+    font-family: RobotoCondensed;
+    text-align: center;
+    height: 400px;
+
+}
+
+.header {
+    font-size: 48px;
+    font-weight: 800;
+    color: #0c4466; 
+    margin-bottom: -10px;
+}
+
+.banner-changelog {
+    background: url('img/banners/changelog.png') center;
+    color: white;
+    font-family: RobotoCondensed;
+    text-align: center;
+    
+    height: 400px;
+    object-position: top left;
+    width: 100%;
+    background-size: cover;
+}
+
+#fullbright {
+    position: relative;;
+    z-index: 1;
+}
+
+.banner-help {
+    background: url('img/banners/help.gif') center;
+    color: white;
+    font-family: RobotoCondensed;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+
+.title {
+    font-size: 81px;
+    font-weight: 1000;
+    color: white;
+    margin-bottom: -10px;
+    z-index: 2;
+}
+
+.banner-devs {
+    background: url('img/banners/devs.png') center;
+    color: white;
+    font-family: RobotoCondensed;
+    
+    height: 400px;
+    width: 100%;
+}
+
+.role {
+    color: #0c4466;
+    font-weight: bold;
+    font-size: 20.5px;
+}
+
+.error {
+    font-family: JetBrains;
+    font-size: 48px;
+    color: black;
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: JetBrains;
+    src: url(fonts/JetBrains.ttf);
+}
+
+.big {
+    font-size: 75px;
+    font-family: RobotoCondensed;
+    font-weight: bolder;
+    color: #0c4466;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -25px;
+}
+
+.err-text {
+    text-align: left;
+}
+
+.banner-archives {
+    background: url(img/banners/archives.jpg) center;
+    color: white;
+    font-family: RobotoCondensed;
+    
+    height: 400px;
+    width: 100%;
+}
+
+.banner-downloads {
+    background: url(img/banners/downloads.jpg) top left;
+    color: white;
+    font-family: RobotoCondensed;
+    
+    height: 400px;
+    width: 100%;
+}
+
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.banner-mc {
+  background: url('img/banners/minecraft.png') top center;  
+  color: white;
+  font-family: RobotoCondensed;
+  
+  height: 400px;
+  width: 100%;
+}
+
+.important {
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+}
+
+.client {
+    width: 550px;
+}
+
+.banner-shellshock {
+    background: url('img/banners/shellshock.webp') center;
+    color: white;
+    font-family: RobotoCondensed;
+    
+    height: 400px;
+    width: 100%;
+    scale: 125%;
+}
+
+.banner-tpg {
+    background: url(img/banners/downloads.jpg);
+    color: white;
+    font-family: RobotoCondensed;
+    
+    height: 400px;
+    width: 100%;
+}
+
+.banner-brawlstars {
+    background: url(img/banners/brawlstars.png) center;
+    color: white;
+    font-family: RobotoCondensed;
+    
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    z-index: 0;
+}
+
+iframe {
+    border-radius: 15px;
+}
+
+.banner-sports {
+    background: url(img/banners/sports.jpg);
+    color: white;
+    font-family: RobotoCondensed;
+    
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+
+.banner-monkeymart {
+    background: url(img/banners/monkey-mart.png) bottom;
+    color: white;
+    font-family: RobotoCondensed;
+    
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+
+.banner-cookieclicker {
+    background: url(img/banners/cookie-clicker.png) center;
+    color: white;
+    font-family: RobotoCondensed;
+    
+    height: 400px;
+    width: 100%;
+}
+
+.banner-retro {
+    background: url(img/banners/retro-games.jpg) bottom;
+    color: white;
+    font-family: RobotoCondensed;
+    
+    height: 400px;
+    width: 100%;
+}
+
+.banner-gd {
+    background: url(img/banners/geometry-dash.png) center;
+    color: white;
+    font-family: RobotoCondensed;
+    
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+
+.card {
+    border-radius: 30px;
+    background-color: #e4e4e4;
+    margin: 15px;
+    height: 415px;
+    width: 275px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+#img {
+    height: 150px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+#breaker {
+    font-size: 10px;
+    color: transparent;
+}
+
+.desc {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.play {
+    border-radius: 15px;
+    background-color: #0c4466;
+    font-family: RobotoCondensed;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 23px;
+    transition: 0.3s;
+}
+
+.header2 {
+    font-size: 35px;
+    font-weight: 800;
+    color: #0c4466; 
+    margin-bottom: -10px;
+}
+
+.card:hover {
+    background-color: rgba(30, 143, 255, 0.315);
+    transform: translate(0, -10px);
+}
+
+.card-invis {
+    border-radius: 30px;
+    background-color: transparent;
+    margin: 15px;
+    height: 415px;
+    width: 275px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.card2 {
+    border-radius: 30px;
+    background-color: #d8d8d8;
+    margin: 15px;
+    height: 300px;
+    width: 275px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.card2:hover {
+    background-color: rgba(30, 143, 255, 0.315);
+    transform: translate(0, -10px);
+}
+
+.banner-lunch {
+    background: url(img/banners/lunch.gif) center;
+    color: white;
+    font-family: RobotoCondensed;
+    
+    height: 400px;
+    width: 100%;
+}
+
+.top-bar {
+    scale: 50%;
+    padding: 0%;
+}
+
+li {
+    display: inline;
+    float: left;
+    font-family: inter-medium;
+}
+
+li a {
+    display: block;
+    padding: 13px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    transition: 0.5s;
+    font-family: RobotoCondensed;
+    position: relative;
+    transform: translate(0, 10px);
+}
+
+li a:hover {
+    background-color: rgb(56, 56, 56);
+    border-radius: 10px;
+
+}
+
+ul {
+    background-color: #1c1c1c;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-top: 5px;
+    font-family: RobotoCondensed;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.right {
+    float: right;
+}
+
+.logo {
+    height: 50px;
+    float: left;
+    transform: none;
+    display: flex;
+    transform: translate(0, -15px);
+}
+
+.left {
+    float: left;
+}
+
+#theme-toggle-button {
+    width: 115px;
+    transform: translate(0, -3px);
+}
+
+#game-area {
+    display: block;
+}

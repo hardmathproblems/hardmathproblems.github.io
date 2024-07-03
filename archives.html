@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classboard Archives</title>
+    <link id="theme-style" rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <style>
+        body {
+            font-family: RobotoCondensed;
+        }
+        label {
+            font-weight: bold;
+        }
+        select {
+            margin-right: 10px;
+            border-radius: 15px;
+            height: 50px;
+            width: 300px;
+            font-size: 20px;
+            font-family: RobotoCondensed;
+            padding: 10px;
+        }
+        button {
+            padding: 8px 16px;
+            cursor: pointer;
+            width: 125px;
+        }
+
+        option {
+            font-family: RobotoCondensed;
+            margin: 5px;
+            transition: 0.4s;
+        }
+
+        option:hover {
+            background-color: blue;
+        }
+    </style>
+        <div class="banner-archives">
+            <ul>
+                <li class="right">&nbsp;</li>
+                <li class="right"><a href="media.html">Media</a></li>
+                <li class="right"><a href="archives.html" class="active">Archives</a></li>
+                <li class="right"><a href="tos.html">Terms of Service</a></li>
+                <li class="right"><a href="meet-the-developers.html">Meet the Developers</a></li>
+                <li class="right"><a href="help.html">Help</a></li>
+                <li class="right"><a href="changelog.html">Changelog</a></li>
+                <li class="right"><a href="news.html">Newsletter</a></li>
+                <li class="right"><a href="index.html">Start</a></li>
+                <li class="left"><a href="index.html" style="font-size: 22px;"><img src="img/favicon.png" class="logo" alt="">&nbsp;&nbsp;Classboard</a></li>
+                <li class="left"><button id="theme-toggle-button">Dark Mode</button></li>
+            </ul>
+            <br><br><br><h1 class="title">Archives</h1>
+        </div>
+        <br>
+
+        <a href="index.html"><button class="nav-button">Home 🏡</button></a>
+
+        <h1 class="header">Select a destination:</h1><br><br>
+        <form id="navigationForm" action="#">
+            <select id="destination" name="destination">
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive1-0/home">Classboard v1.0</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive1-3/home">Classboard v1.3</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive1-4/home">Classboard v1.4</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive1-5/home">Classboard v1.5</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive1-6/home">Classboard v1.6</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive1-7/home">Classboard v1.7</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive1-8/home">Classboard v1.8</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive2-0/home">Classboard v2.0</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive2-1/home">Classboard v2.1</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive2-2/home">Classboard v2.2</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive2-3/home">Classboard v2.3</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive2-4/home">Classboard v2.4</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive3-0/home">Classboard v3.0</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive3-1/home">Classboard v3.1</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive3-5/home">Classboard v3.5</option>
+            </select><br><br><br>
+            <button type="submit">Go ➡️</button>
+        </form>
+
+        <script src="archives.js"></script>
+      <br><br><br><br><br><br><br><p class="copyright" style="float: bottom;">© 2024 Classboard Industries. All rights reserved.</p>
+      <script src="theme-switcher.js"></script>
+</body>
+</html>
