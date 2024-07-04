@@ -504,3 +504,77 @@ select {
 option {
     white-space: 50px;
 }
+
+.popup {
+    display: flex; /* Show the popup by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 0.5s forwards; /* Fade in animation */
+}
+
+.popup-content {
+    background-color: black;
+    padding: 20px;
+    border: 1px solid lime;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    border-radius: 15px; /* Adjust the value to change the border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow to the popup */
+    transform: translateY(100px); /* Start position */
+    animation: slideUp 0.5s forwards; /* Slide up animation */
+    font-family: JetBrains;
+    font-size: 15px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: lime; /* Red background */
+    color: black; /* White text */
+    border: none; /* Remove border */
+    border-radius: 50%; /* Rounded corners */
+    width: 30px; /* Button width */
+    height: 30px; /* Button height */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-align: center; /* Center text */
+    line-height: 30px; /* Center text vertically */
+    transition: 0.3s;
+}
+
+.close-btn:hover {
+    background-color: green; /* Darker red on hover */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUpOut {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+}
