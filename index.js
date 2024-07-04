@@ -15,5 +15,5 @@ function teacherMode(){
 };
 
 function hidePopup(){
-    $('.popup').css('display', 'none')
+    $('.popup').css('z-index', '-1')
 };
