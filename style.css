@@ -564,3 +564,13 @@ option {
         opacity: 0;
     }
 }
+
+.popup {
+    background-color: #d8d8d8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 50%;
+    z-index: 99999999;
+}
