@@ -518,7 +518,6 @@ option {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow to the popup */
     transform: translateY(100px); /* Start position */
     animation: slideUp 0.5s forwards; /* Slide up animation */
-    font-family: RobotoCondensed;
 }
 
 .close-btn {
@@ -536,7 +535,6 @@ option {
     cursor: pointer; /* Pointer cursor on hover */
     text-align: center; /* Center text */
     line-height: 30px; /* Center text vertically */
-    transition: 0.3s;
 }
 
 .close-btn:hover {
@@ -563,14 +561,4 @@ option {
         transform: translateY(-100px);
         opacity: 0;
     }
-}
-
-.popup {
-    background-color: #d8d8d8;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 50%;
-    width: 50%;
-    z-index: 99999999;
 }

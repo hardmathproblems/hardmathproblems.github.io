@@ -13,7 +13,3 @@ function figureItOut(){
 function teacherMode(){
     $('#games-area').css('display', 'none')
 };
-
-function hidePopup(){
-    $('.popup').css('z-index', '-1')
-};
