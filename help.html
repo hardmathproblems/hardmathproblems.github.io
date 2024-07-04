@@ -6,6 +6,7 @@
     <title>Help</title>
     <link id="theme-style" rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <script src="theme-toggle.js" defer></script>
 </head>
 <body>
     
@@ -21,7 +22,15 @@
         <li class="right"><a href="news.html">Newsletter</a></li>
         <li class="right"><a href="index.html">Start</a></li>
         <li class="left"><a href="index.html" style="font-size: 22px;"><img src="img/favicon.png" class="logo" alt="">&nbsp;&nbsp;Classboard</a></li>
-        <li class="left"><button id="theme-toggle-button">Dark Mode</button></li>
+        <li class="left">
+            <select id="theme-selector">
+                <option value="style.css">Light Theme</option>
+                <option value="dark.css">Dark Theme</option>
+                <option value="matrix.css">Matrix Theme</option>
+                <option value="future.css">Future Theme</option>
+                <option value="blue.css">Blue Theme</option>
+            </select>
+        </li>
     </ul>
     <br><br>
     <h1 class="title">Help</h1>
@@ -43,6 +52,5 @@
 <p class="copyright">© 2024 Classboard Industries. All rights reserved.</p>
 
 <script src="index.js"></script>
-<script src="theme-switcher.js"></script>
 </body>
 </html>

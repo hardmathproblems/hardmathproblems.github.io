@@ -571,3 +571,7 @@ option {
         opacity: 0;
     }
 }
+
+.new {
+    line-height: 25px;
+}
