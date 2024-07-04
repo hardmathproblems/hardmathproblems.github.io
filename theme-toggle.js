@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const applyStoredTheme = () => {
         const storedTheme = getThemeFromCookie();
+        console.log(`Applying stored theme: ${storedTheme}`);
         setTheme(storedTheme);
         if (themeSelector) {
             themeSelector.value = storedTheme;
