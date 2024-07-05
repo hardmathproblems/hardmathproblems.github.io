@@ -16,11 +16,6 @@ body {
     src: url(fonts/RobotoCondensed.ttf);
 }
 
-@font-face {
-    font-family: Chewy;
-    src: url(fonts/Chewy-Regular.ttf);
-}
-
 .banner-home {
     background-image: url('img/banners/home.png');
     color: rgb(225, 222, 222);
@@ -43,7 +38,6 @@ body {
 
 h1 {
     color: white;
-    font-family: chewy;
 }
 
 button {
@@ -55,7 +49,6 @@ button {
     border-color: transparent;
     background-color: rgb(14, 110, 206);
     color: white;
-    font-family: Chewy;
     transition: 0.3s;
     cursor: pointer;
 }
@@ -71,7 +64,6 @@ button:hover {
 
 .link-group-label {
     font-size: 30px;
-    font-family: chewy;
 }
 
 a {
@@ -84,12 +76,10 @@ p {
     line-height: 35px;
     font-size: 23px;
     color: white;
-    font-family: Chewy;
 }
 
 h2 {
     font-weight: normal;
-    font-family: chewy;
 }
 
 .invis {
@@ -534,7 +524,7 @@ option {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow to the popup */
     transform: translateY(100px); /* Start position */
     animation: slideUp 0.5s forwards; /* Slide up animation */
-    font-family: Chewy;
+    font-family: RobotoCondensed;
 }
 
 .close-btn {
