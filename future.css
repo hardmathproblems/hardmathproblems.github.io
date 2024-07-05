@@ -642,3 +642,78 @@ option {
 .new {
     line-height: 25px;
 }
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.checkbox-container input {
+    display: none;
+}
+
+.checkbox-container label {
+    position: relative;
+    cursor: pointer;
+    padding-left: 35px;
+    user-select: none;
+}
+
+.checkbox-container label::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #888;
+    border-radius: 5px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.checkbox-container input:checked + label::before {
+    background-color: #4caf50;
+    border-color: #4caf50;
+}
+
+.checkbox-container label::after {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 3px;
+    width: 9px;
+    height: 16px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    opacity: 0;
+    transform: rotate(45deg);
+    transition: 0.3s;
+}
+
+.checkbox-container input:checked + label::after {
+    opacity: 1;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUpOut {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+}
