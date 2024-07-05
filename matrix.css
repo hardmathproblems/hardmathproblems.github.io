@@ -499,6 +499,7 @@ select {
     display: flex;
     transform: translate(0, 8px);
     margin-left: 10px;
+    border: 1px solid lime;
 }
 
 option {
