@@ -16,11 +16,6 @@ body {
     src: url(fonts/RobotoCondensed.ttf);
 }
 
-@font-face {
-    font-family: RobotoCondensed;
-    src: url(fonts/RobotoCondensed-Regular.ttf);
-}
-
 .banner-home {
     background-image: url('img/banners/home.png');
     color: rgb(225, 222, 222);
