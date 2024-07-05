@@ -17,8 +17,8 @@ body {
 }
 
 @font-face {
-    font-family: Chewy;
-    src: url(fonts/Chewy-Regular.ttf);
+    font-family: RobotoCondensed;
+    src: url(fonts/RobotoCondensed-Regular.ttf);
 }
 
 .banner-home {
@@ -43,7 +43,7 @@ body {
 
 h1 {
     color: white;
-    font-family: chewy;
+    font-family: RobotoCondensed;
 }
 
 button {
@@ -55,7 +55,7 @@ button {
     border-color: transparent;
     background-color: rgb(14, 110, 206);
     color: white;
-    font-family: Chewy;
+    font-family: RobotoCondensed;
     transition: 0.3s;
     cursor: pointer;
 }
@@ -71,7 +71,7 @@ button:hover {
 
 .link-group-label {
     font-size: 30px;
-    font-family: chewy;
+    font-family: RobotoCondensed;
 }
 
 a {
@@ -84,12 +84,12 @@ p {
     line-height: 35px;
     font-size: 23px;
     color: white;
-    font-family: Chewy;
+    font-family: RobotoCondensed;
 }
 
 h2 {
     font-weight: normal;
-    font-family: chewy;
+    font-family: RobotoCondensed;
 }
 
 .invis {
@@ -356,7 +356,7 @@ iframe {
 .play {
     border-radius: 15px;
     background-color: rgb(14, 110, 206);
-    font-family: Chewy;
+    font-family: RobotoCondensed;
     text-decoration: none;
     color: white;
     padding: 15px;
@@ -433,7 +433,7 @@ li a {
     text-align: center;
     font-size: 17px;
     transition: 0.5s;
-    font-family: Chewy;
+    font-family: RobotoCondensed;
     position: relative;
     transform: translate(0, 7px);
 }
@@ -450,7 +450,7 @@ ul {
     padding: 0;
     overflow: hidden;
     padding-top: 5px;
-    font-family: Chewy;
+    font-family: RobotoCondensed;
 }
 
 .active {
@@ -534,7 +534,7 @@ option {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow to the popup */
     transform: translateY(100px); /* Start position */
     animation: slideUp 0.5s forwards; /* Slide up animation */
-    font-family: Chewy;
+    font-family: RobotoCondensed;
 }
 
 .close-btn {
