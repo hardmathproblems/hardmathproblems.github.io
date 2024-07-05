@@ -1,0 +1,9 @@
+{
+    "name": "Classboard",
+    "manifest_version": 3,
+    "version": "7.1.0"  ,
+    "description": "Your bookmarks and shortcuts made easy!",
+    "icons": {
+        "logo": "img/favicon.png"
+    }
+}
