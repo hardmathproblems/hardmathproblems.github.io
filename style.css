@@ -566,3 +566,7 @@ option {
 .new {
     line-height: 25px;
 }
+
+progress {
+    height: 50px;
+}
