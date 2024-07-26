@@ -463,7 +463,7 @@ ul {
     transform: none;
     vertical-align: -10px;
     display: flex;
-    transform: translate(0, -10px);
+    transform: translate(0, -15px);
 }
 
 .left {
