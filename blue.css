@@ -25,6 +25,13 @@ body {
     vertical-align: -200px;
 }
 
+.navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 69420;
+    background-color: #1c1c1c;
+}
+
 .nav-button {
     border-radius: 10px;
     border: transparent;
