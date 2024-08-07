@@ -29,6 +29,7 @@ body {
     width: 100%;
     position: fixed;
     z-index: 69420;
+    top: 0px;
     background-color: #1c1c1c;
 }
 
