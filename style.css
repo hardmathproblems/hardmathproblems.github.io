@@ -535,6 +535,7 @@ option {
     cursor: pointer; /* Pointer cursor on hover */
     text-align: center; /* Center text */
     line-height: 30px; /* Center text vertically */
+    /*This def ai generated ik it*/
 }
 
 .close-btn:hover {

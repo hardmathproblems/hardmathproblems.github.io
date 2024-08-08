@@ -4,6 +4,7 @@
     "version": "7.1.0"  ,
     "description": "Your bookmarks and shortcuts made easy!",
     "icons": {
-        "logo": "img/favicon.png"
+        "default_icon": "img/favicon.png",
+        "defualt_popup": "index.html"
     }
 }

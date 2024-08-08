@@ -27,4 +27,4 @@ A great link hub to get places fast! We have Google stuff, other resources, game
 - Helps with everything, really
 - Joined in January
 
-## I'll finish this later...
+## Send a pull request if u wanna help btw.
