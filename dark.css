@@ -654,3 +654,8 @@ option {
 .checkbox-container input:checked + label::after {
     opacity: 1;
 }
+
+@font-face {
+    font-family: Pixel Sans;
+    src: url(/fonts/pixel\ sans.ttf);
+}

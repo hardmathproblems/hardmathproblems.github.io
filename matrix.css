@@ -583,3 +583,8 @@ option {
 .new {
     line-height: 25px;
 }
+
+@font-face {
+    font-family: Pixel Sans;
+    src: url(/fonts/pixel\ sans.ttf);
+}

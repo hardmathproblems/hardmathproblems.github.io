@@ -717,3 +717,8 @@ option {
         opacity: 0;
     }
 }
+
+@font-face {
+    font-family: Pixel Sans;
+    src: url(/fonts/pixel\ sans.ttf);
+}
