@@ -13,3 +13,9 @@ function figureItOut(){
 function teacherMode(){
     $('#games-area').css('display', 'none')
 };
+
+document.addEventListener('keydown', (event) => {
+    if (event === 'N'){
+        teacherMode()
+    };
+})
