@@ -28,3 +28,4 @@ A great link hub to get places fast! We have Google stuff, other resources, game
 - Joined in January
 
 ## Send a pull request if u wanna help btw.
+#### Dont read the commits, okay!
