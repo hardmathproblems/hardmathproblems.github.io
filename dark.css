@@ -659,3 +659,7 @@ option {
     font-family: Pixel Sans;
     src: url(/fonts/pixel\ sans.ttf);
 }
+
+h4 {
+    color: white;
+}

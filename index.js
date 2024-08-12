@@ -14,8 +14,15 @@ function teacherMode(){
     $('#games-area').css('display', 'none')
 };
 
-document.addEventListener('keypress', (event) => {
-    if (event === 'N'){
-        teacherMode()
-    };
-})
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'n' || event.key === 'N') {
+        const gamesArea = document.getElementById('games-area');
+        if (gamesArea) {
+            if (gamesArea.style.display === 'none') {
+                gamesArea.style.display = 'block';
+            } else {
+                gamesArea.style.display = 'none';
+            }
+        }
+    }
+});
