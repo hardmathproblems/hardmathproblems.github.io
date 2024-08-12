@@ -14,7 +14,7 @@ function teacherMode(){
     $('#games-area').css('display', 'none')
 };
 
-document.addEventListener('keydown', (event) => {
+document.addEventListener('keypress', (event) => {
     if (event === 'N'){
         teacherMode()
     };
