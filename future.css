@@ -750,7 +750,8 @@ h4 {
 
 #toggle-btn:hover {
     background-color: #0056b3;
-    animation: pulse-glow 5s infinite
+    animation: pulse-glow 5s infinite;
+    box-shadow: dodgerblue;
 }
 
 #music-player {
