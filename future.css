@@ -984,14 +984,14 @@ h4 {
 
 @keyframes pulse-glow {
     0% {
-        box-shadow: 0px 0px 5px;
+        box-shadow: 0px 0px 5px dodgerblue;
     }
 
     50% {
-        box-shadow: 0px 0px 45px;
+        box-shadow: 0px 0px 45px dodgerblue;
     }
 
     100% {
-        box-shadow: 0px 0px 5px;
+        box-shadow: 0px 0px 5px dodgerblue;
     }
 }
