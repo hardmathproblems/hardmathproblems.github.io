@@ -6,6 +6,8 @@
     <title>Minecraft</title>
     <link id="theme-style" rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
 
@@ -67,5 +69,35 @@
 
     <p class="copyright">© 2024 Classboard Industries. All rights reserved.</p>
     <script src="/theme-toggle.js"></script>
+    <div id="player-container">
+        <button id="toggle-btn"><span class="material-symbols-rounded">
+            music_note
+            </span></button>
+        <div id="music-player">
+            <button id="close-btn">✖</button>
+            <div class="container">
+                <input type="text" id="url-input" placeholder="Enter YouTube URL">
+                <button id="fetch-btn">Fetch Song</button><br>
+            </div><br>
+            <div id="song-info">
+                <img src="" alt="Song Image" id="song-image">
+                <span id="song-name">Waiting for Song...</span>
+            </div>
+            <div id="controls">
+                <button id="play-pause-btn" class="control-btn">
+                    <span class="material-icons-round" id="play-icon">play_circle</span>
+                    <span class="material-icons-round" id="pause-icon" style="display: none;">pause_circle</span>
+                </button>
+                <div id="volume-control">
+                    <span class="material-icons-round">volume_up</span>
+                    <input type="range" id="volume-slider" min="0" max="100" value="100">
+                </div>
+            </div>
+            <div id="playlist"></div>
+        </div>
+    </div>
+    <script src="/music.js"></script>
+    
+    <div id="player"></div>
 </body>
 </html>
