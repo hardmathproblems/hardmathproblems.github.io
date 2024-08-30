@@ -1,5 +1,6 @@
 const API_KEY = 'AIzaSyCmw1LikX2ci00qharZd7o0ztYWW3pYcvg';
 let playlist = [];
+let isPlayerInitialized = false;
 
 document.addEventListener('DOMContentLoaded', () => {
     const toggleBtn = document.getElementById('toggle-btn');
@@ -15,17 +16,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const volumeSlider = document.getElementById('volume-slider');
     const playlistDiv = document.getElementById('playlist');
 
-    // Load the YouTube IFrame API
     const tag = document.createElement('script');
     tag.src = 'https://www.youtube.com/iframe_api';
     const firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
     let player;
-    
-    // YouTube API Ready callback
+
     window.onYouTubeIframeAPIReady = () => {
-        console.log('YouTube IFrame API is ready');
         player = new YT.Player('player', {
             height: '0',
             width: '0',
@@ -36,7 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     function onPlayerReady(event) {
-        loadPlayerState(); // Load state when player is ready
+        loadPlayerState();
+        isPlayerInitialized = true;
     }
 
     function extractVideoId(url) {
@@ -58,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 if (player && typeof player.loadVideoById === 'function') {
                     player.loadVideoById(videoId);
-                    savePlayerState(); // Save state after loading video
+                    savePlayerState();
                 } else {
                     console.error('Player is not properly initialized or does not support loadVideoById.');
                 }
@@ -82,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     songName.textContent = item.title;
                     playIcon.style.display = 'none';
                     pauseIcon.style.display = 'block';
-                    savePlayerState(); // Save state when a playlist item is clicked
+                    savePlayerState();
                 } else {
                     console.error('Player is not properly initialized or does not support loadVideoById.');
                 }
@@ -109,18 +108,21 @@ document.addEventListener('DOMContentLoaded', () => {
         const savedVolume = parseFloat(getCookie('volume'));
 
         if (savedVideoId) {
-            fetchSongData(savedVideoId).then(() => {
-                if (savedTime) {
-                    player.seekTo(savedTime);
+            player.cueVideoById(savedVideoId); // Use cueVideoById instead of loadVideoById to allow seeking before playing
+
+            player.addEventListener('onStateChange', function (event) {
+                if (event.data === YT.PlayerState.CUED) {
+                    if (savedTime && !isNaN(savedTime)) {
+                        player.seekTo(savedTime, true);
+                    }
+                    if (savedVolume && !isNaN(savedVolume)) {
+                        player.setVolume(savedVolume);
+                        volumeSlider.value = savedVolume;
+                    }
                 }
-                if (savedVolume) {
-                    player.setVolume(savedVolume);
-                    volumeSlider.value = savedVolume;
-                }
-                player.playVideo();
             });
         } else {
-            songImage.src = '/img/placeholder.png'; // Default placeholder image
+            songImage.src = '/img/placeholder.png';
             songName.textContent = 'No song loaded';
         }
     }
@@ -151,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 playIcon.style.display = 'none';
                 pauseIcon.style.display = 'block';
             }
-            savePlayerState(); // Save state on play/pause
+            savePlayerState();
         } else {
             console.error('Player is not properly initialized or does not support getPlayerState.');
         }
@@ -161,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const volume = volumeSlider.value;
         if (player && typeof player.setVolume === 'function') {
             player.setVolume(volume);
-            savePlayerState(); // Save state on volume change
+            savePlayerState();
         } else {
             console.error('Player is not properly initialized or does not support setVolume.');
         }
@@ -173,14 +175,12 @@ document.addEventListener('DOMContentLoaded', () => {
             musicPlayer.classList.add('hide');
             setTimeout(() => {
                 musicPlayer.style.display = 'none';
-                savePlayerState();  // Save state when the player is hidden
             }, 300);
         } else {
             musicPlayer.style.display = 'flex';
             setTimeout(() => {
                 musicPlayer.classList.remove('hide');
                 musicPlayer.classList.add('show');
-                loadPlayerState();  // Load state when the player is shown
             }, 10);
         }
     });
@@ -190,7 +190,6 @@ document.addEventListener('DOMContentLoaded', () => {
         musicPlayer.classList.add('hide');
         setTimeout(() => {
             musicPlayer.style.display = 'none';
-            savePlayerState();  // Save state when the player is closed
         }, 300);
     });
 
@@ -198,7 +197,6 @@ document.addEventListener('DOMContentLoaded', () => {
     musicPlayer.style.display = 'none';
 });
 
-// Cookie handling functions
 function setCookie(name, value, days) {
     const date = new Date();
     date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
