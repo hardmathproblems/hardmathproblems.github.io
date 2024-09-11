@@ -27,19 +27,19 @@ body {
 .nav-button {
     border-radius: 3px;
     border: transparent;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: medium;
     margin: 12.5px;
-    height: 35px;
+    height: 45px;
     width: 175px;
     text-align: center;
 }
 
 button {
-    height: 35px;
+    height: 45px;
     width: 400px;
     border-radius: 3px;
-    font-size: 12px;
+    font-size: 10px;
     margin: 12.5px;
     border-color: transparent;
     background-color: #0c4466;
