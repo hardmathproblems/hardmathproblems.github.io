@@ -3,7 +3,7 @@ A great link hub to get places fast! We have Google stuff, other resources, game
 
 ## Meet the Developers
 
-### cobblesteve01
+### Cobblesteve01
 - Founded Classboard
 - Current Owner
 - Does most of the development
@@ -22,10 +22,21 @@ A great link hub to get places fast! We have Google stuff, other resources, game
 - Helped make forms
 - Joined November 16, 2023 (One day after launch)
 
-### Hinkley Edwards
+  ### Bahabryra
+- Cheif Programmer of Classboard
+- Does just help with backround stuff nothing big (as of right now >:) hehe) 
+- Also has scratch profile scratch.mit.edu/users/bahabryra
+- Knows HTML, CSS, Basic JavaScript, and Python
+- Bug fixes sometimes
+- Joined February 2024
+  #bahabryra signing out have a bahabryra day
+- name pronuncation (bahEbre r a)
+
+### Edwardshs
 - Secretary
 - Helps with everything, really
 - Joined in January
 
 ## Send a pull request if u wanna help btw.
 #### Dont read the commits, okay!
+### byeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
