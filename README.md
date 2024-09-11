@@ -29,7 +29,7 @@ A great link hub to get places fast! We have Google stuff, other resources, game
 - Knows HTML, CSS, Basic JavaScript, and Python
 - Bug fixes sometimes
 - Joined February 2024
-  #bahabryra signing out have a bahabryra day
+  ### bahabryra signing out have a bahabryra day
 - name pronuncation (bahEbre r a)
 
 ### Edwardshs
