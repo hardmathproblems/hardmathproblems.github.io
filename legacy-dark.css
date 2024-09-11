@@ -26,12 +26,12 @@ body {
 }
 
 .nav-button {
-    border-radius: 10px;
+    border-radius: 3px;
     border: transparent;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: medium;
-    margin: 7.5px;
-    height: 50px;
+    margin: 12.5px;
+    height: 36px;
     width: 175px;
     text-align: center;
 }
@@ -41,11 +41,11 @@ h1 {
 }
 
 button {
-    height: 50px;
+    height: 36px;
     width: 350px;
-    border-radius: 10px;
-    font-size: 18px;
-    margin: 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    margin: 12.5px;
     border-color: transparent;
     background-color: rgb(14, 110, 206);
     color: white;
@@ -55,7 +55,7 @@ button {
 }
 
 button:hover {
-    scale: 105%;
+    box-shadow: 0px 0.5px 5px rgba(255, 255, 255, 0.37);
 }
 
 .container {
@@ -430,9 +430,7 @@ li a {
 }
 
 li a:hover {
-    background-color: rgb(56, 56, 56);
-    border-radius: 10px;
-
+    color: #b4b4b4;
 }
 
 ul {

@@ -470,26 +470,19 @@ ul {
     float: left;
 }
 
-#theme-toggle-button {
-    width: 115px;
-    transform: translate(0, -3px);
-    background-color: transparent;
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
-}
-
-#theme-toggle-button:hover {
-    background-color: #ffffff4d;
-}
-
 #game-area {
     display: block;
 }
 
+#theme-selector {
+    height: 40px;
+    width: 175px;
+    font-family: JetBrains;
+    font-size: 15px;
+}
+
 select {
     border-radius: 15px;
-    height: 40px;
     width: 175px;
     background-color: rgb(1, 27, 51);
     color: white;
@@ -499,6 +492,7 @@ select {
     display: flex;
     transform: translate(0, 8px);
     margin-left: 10px;
+    height: 45px;
 }
 
 option {
