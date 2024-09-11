@@ -25,22 +25,22 @@ body {
 }
 
 .nav-button {
-    border-radius: 10px;
+    border-radius: 3px;
     border: transparent;
     font-size: 18px;
     font-weight: medium;
-    margin: 7.5px;
-    height: 50px;
+    margin: 12.5px;
+    height: 30px;
     width: 175px;
     text-align: center;
 }
 
 button {
-    height: 50px;
+    height: 30px;
     width: 400px;
-    border-radius: 10px;
+    border-radius: 3px;
     font-size: 18px;
-    margin: 10px;
+    margin: 12.5px;
     border-color: transparent;
     background-color: #0c4466;
     color: white;
