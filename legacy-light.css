@@ -30,13 +30,13 @@ body {
     font-size: 10px;
     font-weight: medium;
     margin: 12.5px;
-    height: 45px;
+    height: 60px;
     width: 175px;
     text-align: center;
 }
 
 button {
-    height: 45px;
+    height: 60px;
     width: 400px;
     border-radius: 3px;
     font-size: 10px;
