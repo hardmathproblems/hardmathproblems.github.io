@@ -1,0 +1,910 @@
+::-webkit-scrollbar {
+    width: 0px;
+    border-radius: 10px;
+    color: red;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: RobotoCondensed;
+    background-color: #1d1d1d;
+}
+
+@font-face {
+    font-family: RobotoCondensed;
+    src: url(fonts/RobotoCondensed.ttf);
+}
+
+.banner-home {
+    background-image: url('img/banners/home.png');
+    color: rgb(225, 222, 222);
+    font-family: RobotoCondensed;
+    height: 400px;
+    text-align: center;
+    vertical-align: -200px;
+}
+
+.nav-button {
+    border-radius: 10px;
+    border: transparent;
+    font-size: 18px;
+    font-weight: medium;
+    margin: 7.5px;
+    height: 50px;
+    width: 175px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+button {
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 10px;
+    border-color: transparent;
+    background-color: rgb(14, 110, 206);
+    color: white;
+    font-family: RobotoCondensed;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    scale: 105%;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+}
+
+.link-group-label {
+    font-size: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+p {
+    line-height: 35px;
+    font-size: 23px;
+    color: white;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+.invis {
+    color: transparent;
+    background-color: transparent;
+    cursor: default;
+}
+
+.copyright {
+    font-size: 12px;
+}
+
+.ToS {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.lnk {
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+.email {
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+.banner-news {
+    background: url('img/banners/news.gif') center right;
+    color: rgb(225, 222, 222);
+    font-family: RobotoCondensed;
+    text-align: center;
+    height: 400px;
+
+}
+
+.header {
+    font-size: 48px;
+    font-weight: 800;
+    color: white; 
+    margin-bottom: -10px;
+}
+
+.banner-changelog {
+    background: url('img/banners/changelog.png') center;
+    color: white;
+    font-family: RobotoCondensed;
+    text-align: center;
+    height: 400px;
+    object-position: top left;
+    width: 100%;
+    background-size: cover;
+}
+
+#fullbright {
+    position: relative;
+    z-index: 1;
+}
+
+.banner-help {
+    background: url('img/banners/help.gif') center;
+    color: white;
+    font-family: RobotoCondensed;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+
+.title {
+    font-size: 81px;
+    font-weight: 1000;
+    color: white;
+    margin-bottom: -10px;
+    z-index: 2;
+}
+
+.banner-devs {
+    background: url('img/banners/devs.png') center;
+    color: white;
+    font-family: RobotoCondensed;
+    height: 400px;
+    width: 100%;
+}
+
+.role {
+    color: dodgerblue;
+    font-weight: bold;
+    font-size: 20.5px;
+}
+
+.error {
+    font-family: JetBrains;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: JetBrains;
+    src: url(fonts/JetBrains.ttf);
+}
+
+.big {
+    font-size: 75px;
+    font-family: RobotoCondensed;
+    font-weight: bolder;
+    color: #ffffff;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -25px;
+}
+
+.err-text {
+    text-align: left;
+}
+
+.banner-archives {
+    background: url(img/banners/archives.jpg) center;
+    color: white;
+    font-family: RobotoCondensed;
+    height: 400px;
+    width: 100%;
+}
+
+.banner-downloads {
+    background: url(img/banners/downloads.jpg) top left;
+    color: white;
+    font-family: RobotoCondensed;
+    height: 400px;
+    width: 100%;
+}
+
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.banner-mc {
+  background: url('img/banners/minecraft.png') top center;  
+  color: white;
+  font-family: RobotoCondensed;
+  height: 400px;
+  width: 100%;
+}
+
+.important {
+    font-size: 40px;
+    color: rgb(255, 33, 33);
+    font-weight: bold;
+}
+
+.client {
+    width: 550px;
+}
+
+.banner-shellshock {
+    background: url('img/banners/shellshock.webp') center;
+    color: white;
+    font-family: RobotoCondensed;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+
+.banner-tpg {
+    background: url(img/banners/downloads.jpg);
+    color: white;
+    font-family: RobotoCondensed;
+    height: 400px;
+    width: 100%;
+}
+
+.banner-brawlstars {
+    background: url(img/banners/brawlstars.png) center;
+    color: white;
+    font-family: RobotoCondensed;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    z-index: 0;
+}
+
+iframe {
+    border-radius: 15px;
+}
+
+.banner-sports {
+    background: url(img/banners/sports.jpg);
+    color: white;
+    font-family: RobotoCondensed;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+
+.banner-monkeymart {
+    background: url(img/banners/monkey-mart.png) bottom;
+    color: white;
+    font-family: RobotoCondensed;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+
+.banner-cookieclicker {
+    background: url(img/banners/cookie-clicker.png) center;
+    color: white;
+    font-family: RobotoCondensed;
+    height: 400px;
+    width: 100%;
+}
+
+.banner-retro {
+    background: url(img/banners/retro-games.jpg) bottom;
+    color: white;
+    font-family: RobotoCondensed;
+    height: 400px;
+    width: 100%;
+}
+
+.banner-gd {
+    background: url(img/banners/geometry-dash.png) center;
+    color: white;
+    font-family: RobotoCondensed;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+
+.card {
+    border-radius: 30px;
+    background-color: transparent;
+    margin: 15px;
+    height: 415px;
+    width: 275px;
+    padding: 20px;
+    transition: 0.3s;
+    border-width: 0.5px;
+    border: white;
+    color: white;
+    border-style: solid;
+}
+
+#img {
+    height: 150px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+#breaker {
+    font-size: 10px;
+    color: transparent;
+}
+
+.desc {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.play {
+    border-radius: 15px;
+    background-color: rgb(14, 110, 206);
+    font-family: RobotoCondensed;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 23px;
+    transition: 0.3s;
+}
+
+.header2 {
+    font-size: 35px;
+    font-weight: 800;
+    color: white; 
+    margin-bottom: -10px;
+}
+
+.card:hover {
+    background-color: rgba(255, 255, 255, 0.411);
+    transform: translate(0, -10px);
+}
+
+.card-invis {
+    border-radius: 30px;
+    background-color: transparent;
+    margin: 15px;
+    height: 415px;
+    width: 275px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.card2 {
+    border-radius: 30px;
+    background-color: transparent;
+    margin: 15px;
+    height: 300px;
+    width: 275px;
+    padding: 20px;
+    transition: 0.3s;
+    border-width: 2px;
+    border-color: white;
+    border: white;
+    border-style: solid;
+}
+
+.card2:hover {
+    background-color: rgba(255, 255, 255, 0.411);
+    transform: translate(0, -10px);
+}
+
+.banner-lunch {
+    background: url(img/banners/lunch.gif) center;
+    color: white;
+    font-family: RobotoCondensed;
+    height: 400px;
+    width: 100%;
+}
+
+h2 {
+    color: white;
+}
+
+li {
+    display: inline;
+    float: left;
+    font-family: inter-medium;
+}
+
+li a {
+    display: block;
+    padding: 13px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    transition: 0.5s;
+    font-family: RobotoCondensed;
+    position: relative;
+    transform: translate(0, 7px);
+}
+
+li a:hover {
+    background-color: rgb(56, 56, 56);
+    border-radius: 10px;
+
+}
+
+ul {
+    background-color: #1c1c1c;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-top: 5px;
+    font-family: RobotoCondensed;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.right {
+    float: right;
+}
+
+.logo {
+    height: 50px;
+    float: left;
+    transform: none;
+    vertical-align: -10px;
+    display: flex;
+    transform: translate(0, -15px);
+}
+
+.left {
+    float: left;
+}
+
+#theme-toggle-button {
+    width: 115px;
+    transform: translate(0, -3px);
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+#theme-toggle-button:hover {
+    background-color: #ffffff4d;
+}
+
+#game-area {
+    display: block;
+}
+
+select {
+    border-radius: 15px;
+    height: 40px;
+    width: 175px;
+    background-color: #1c1c1c;
+    color: white;
+    font-family: JetBrains;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    transform: translate(0, 8px);
+    margin-left: 10px;
+}
+
+option {
+    white-space: 50px;
+}
+.popup {
+    display: flex; /* Show the popup by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 0.5s forwards; /* Fade in animation */
+    line-height: 1px;
+}
+
+.popup-content {
+    background-color: #1d1d1d;
+    padding: 20px;
+    border: none;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    border-radius: 15px; /* Adjust the value to change the border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow to the popup */
+    transform: translateY(100px); /* Start position */
+    animation: slideUp 0.5s forwards; /* Slide up animation */
+    font-family: RobotoCondensed;
+    line-height: 20px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: #f44336; /* Red background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 50%; /* Rounded corners */
+    width: 30px; /* Button width */
+    height: 30px; /* Button height */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-align: center; /* Center text */
+    line-height: 30px; /* Center text vertically */
+    transition: 0.3s;
+}
+
+.close-btn:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUpOut {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+}
+
+.new {
+    line-height: 25px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    transform: translate(0px, 5px);
+    font-size: 18px;
+}
+
+.checkbox-container input {
+    display: none;
+}
+
+.checkbox-container label {
+    position: relative;
+    cursor: pointer;
+    padding-left: 35px;
+    user-select: none;
+    color: white;
+    transform: translate(0, 165px);
+}
+
+.checkbox-container label::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: 0.3s;
+    color: white;
+}
+
+.checkbox-container input:checked + label::before {
+    background-color: #4caf50;
+    border-color: #4caf50;
+}
+
+.checkbox-container label::after {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 3px;
+    width: 9px;
+    height: 16px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    opacity: 0;
+    transform: rotate(45deg);
+    transition: 0.3s;
+    color: white;
+}
+
+.checkbox-container input:checked + label::after {
+    opacity: 1;
+}
+
+.checkbox-container label::after {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 3px;
+    width: 9px;
+    height: 16px;
+    border: 1px solid white;
+    border-width: 0 3px 3px 0;
+    opacity: 0;
+    transform: translateY(-5%) rotate(45deg);
+    transition: 0.3s;
+}
+
+.checkbox-container input:checked + label::after {
+    opacity: 1;
+}
+
+@font-face {
+    font-family: Pixel Sans;
+    src: url(/fonts/pixel\ sans.ttf);
+}
+
+h4 {
+    color: white;
+}
+
+#player-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#toggle-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#toggle-btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+#music-player {
+    display: none;
+    background-color: #242424;
+    border-radius: 16px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    width: 350px;
+    max-height: 400px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    color: white;
+}
+
+#music-player.show {
+    display: flex;
+    opacity: 1;
+    transform: scale(1);
+}
+
+#music-player.hide {
+    opacity: 0;
+    transform: scale(0px);
+}
+
+#close-btn {
+    background-color: #ff5c5c;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#close-btn:hover {
+    background-color: #ff1c1c;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+#song-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#song-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+#song-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+.control-btn {
+    background-color: black;
+    color: rgb(0, 89, 255);
+    border: none;
+    border-radius: 25%;
+    padding: 12px;
+    cursor: pointer;
+    outline: none;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    scale: 125%;
+}
+
+.control-btn:hover {
+    background-color: rgb(211, 211, 211);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#volume-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+#volume-slider {
+    -webkit-appearance: none;
+    width: 230px;
+    height: 6px;
+    background: black;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background: dodgerblue;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#volume-slider::-webkit-slider-thumb:hover {
+    background: #0056b3;
+}
+
+#volume-slider::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    background: #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#volume-slider::-moz-range-thumb:hover {
+    background: #0056b3;
+}
+
+#url-input {
+    padding: 12px;
+    font-size: 16px;
+    width: 235px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+    margin-bottom: 10px;
+    outline: none;
+    transition: background-color 0.3s ease;
+    font-family: RobotoCondensed;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#url-input:focus {
+    background-color: #e0e0e0;
+}
+
+#fetch-btn {
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    width: 115px;
+    transition: background-color 0.3s ease;
+    font-family: RobotoCondensed;
+    height: 50px;
+    transform: translateY(-8px);
+    margin-left: 0;
+}
+
+#fetch-btn:hover {
+    background-color: #0056b3;
+}
+
+#playlist {
+    width: 100%;
+    margin-top: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    border-top: 1px solid white;
+    padding-top: 10px;
+}
+
+.playlist-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.playlist-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.playlist-item span {
+    font-size: 16px;
+    color: white;
+}
