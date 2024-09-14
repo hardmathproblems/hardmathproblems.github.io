@@ -15,6 +15,11 @@ body {
     src: url(fonts/RobotoCondensed.ttf);
 }
 
+@font-face {
+    font-family: Inter;
+    src: url(/fonts/inter.ttf);
+}
+
 .banner-home {
     background-image: url('img/banners/home.png');
     color: rgb(225, 222, 222);
@@ -833,4 +838,41 @@ h4{
   'opsz' 48;
   color: white;
   vertical-align: -2px;
+}
+
+.login {
+    width: 80px;
+    font-size: 16px;
+    height: 40px;
+}
+
+.login-screen {
+    font-family: RobotoCondensed;
+    font-weight: 700;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 25px;
+    font-size: 25px;
+}
+
+.login-option {
+    border: 1.5px solid gray;
+    width: 300px;
+    height: 60px;
+    background-color: transparent;
+    color: black;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+.login-option-disabled {
+    border: 1.5px dashed gray;
+    width: 300px;
+    height: 60px;
+    background-color: transparent;
+    color: gray;
+    font-family: Inter;
+    font-weight: 500;
+    cursor: initial;
 }

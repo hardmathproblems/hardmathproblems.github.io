@@ -996,3 +996,9 @@ h4 {
         box-shadow: 0px 0px 5px dodgerblue;
     }
 }
+
+.login {
+    width: 80px;
+    font-size: 16px;
+    height: 40px;
+}
