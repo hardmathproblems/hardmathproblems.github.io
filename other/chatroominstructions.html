@@ -1,0 +1,129 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step-by-Step Instructions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet"> <!-- Include Inter font -->
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            font-weight: 500; /* Medium weight */
+            text-align: center;
+            padding: 50px;
+            background-color: white;
+        }
+        #instructions {
+            font-size: 18px;
+            margin-bottom: 20px;
+            position: relative;
+            animation: slide-in 0.5s ease-out forwards; /* Slide-in animation */
+        }
+        @keyframes slide-in {
+            from { left: 100%; opacity: 0; }
+            to { left: 0; opacity: 1; }
+        }
+        #stepCounter {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 16px;
+            color: gray;
+            font-weight: 500; /* Medium weight */
+        }
+        #nextButton {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: rgb(50, 205, 50); /* Background color */
+            border-radius: 9px; /* Border radius */
+            font-family: 'Inter', sans-serif; /* Inter font */
+            color: white; /* Text color */
+            border: none; /* Remove default border */
+            transition: background-color 0.3s ease; /* Smooth background color transition */
+        }
+        #nextButton:hover {
+            background-color: #32CD32; /* Darker green on hover */
+        }
+        .notice {
+            font-style: italic;
+            color: #FF0000; /* Tomato red color */
+        }
+        #checkIcon {
+            color: green;
+            font-size: 24px;
+            margin-top: 20px;
+            display: none;
+        }
+
+        ::-webkit-scrollbar {
+            width: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div id="instructions">
+    <p>Welcome!</p>
+    <p>Click the button below to get started</p>
+</div>
+
+<div id="stepCounter">Step <span id="currentStep">0</span> of <span id="totalSteps">8</span></div>
+
+<button id="nextButton" onclick="nextStep()">Next Step</button>
+
+<div id="checkIcon"><i class="fas fa-check-circle"></i> All steps completed!</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script> <!-- Font Awesome JS -->
+
+<script>
+    // Array of instructions and notices
+    const content = [
+        { type: 'instruction', text: "First, go to <a href=\'https://teams.microsoft.com\'>Microsoft Teams</a>" },
+        { type: 'instruction', text: "Then, once there, sign in with your school email (e.g. appleseedjs@vhcsk12.com)" },
+        { type: 'instruction', text: "Ask your friend to sign in with their email" },
+        { type: 'instruction', text: "Click 'Chat' in the sidebar, then click the textbox at the top and enter their name/email" },
+        { type: 'instruction', text: "Then, click the textbox at the bottom, enter a message, and hit send/enter!'" },
+        { type: 'instruction', text: "To add a groupchat, enter multiple names/emails into the textbox at the top" },
+    ];
+
+    let currentStep = -1; // Start from step 0 (welcome message)
+    const instructionsElement = document.getElementById("instructions");
+    const currentStepElement = document.getElementById("currentStep");
+    const totalStepsElement = document.getElementById("totalSteps");
+
+    // Initialize step counter
+    updateStepCounter();
+
+    // Function to update the step counter display
+    function updateStepCounter() {
+        currentStepElement.textContent = currentStep + 1;
+        totalStepsElement.textContent = content.length; // Display total steps including notice
+    }
+
+    // Function to display the next step with a slide-in animation
+    function nextStep() {
+        if (currentStep < content.length - 1) {
+            currentStep++;
+            instructionsElement.style.animation = "slide-out 0.5s ease-in forwards"; // Slide-out animation
+            setTimeout(() => {
+                const item = content[currentStep];
+                if (item.type === 'instruction') {
+                    instructionsElement.innerHTML = `<p>Step ${currentStep + 1}: ${item.text}</p>`;
+                } else if (item.type === 'notice') {
+                    instructionsElement.innerHTML = `<p class="notice">${item.text}</p>`;
+                }
+                instructionsElement.style.animation = "slide-in 0.5s ease-out forwards"; // Slide-in animation
+                updateStepCounter(); // Update step counter after transition
+            }, 500); // Wait for slide-out animation to complete (500ms)
+        } else {
+            instructionsElement.innerHTML = "<p>Enjoy chatting with friends :P</p>";
+            document.getElementById("nextButton").style.display = "none"; // Hide the button
+            document.getElementById("checkIcon").style.display = "block"; // Show the check mark icon
+        }
+    }
+</script>
+
+</body>
+</html>
