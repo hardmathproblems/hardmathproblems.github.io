@@ -22,7 +22,7 @@
             <li class="right"><a href="/changelog.html">Changelog</a></li>
             <li class="right"><a href="/news.html">Newsletter</a></li>
             <li class="right"><a href="/index.html">Start</a></li>
-            <li class="left"><a href="/index.html" style="font-size: 22px;"><img src="/img/favicon.png" class="logo" alt="">&nbsp;&nbsp;Classboard</a></li>
+            <li class="left"><a href="/index.html" style="font-size: 22px;"><img src="/img/favicon.png" class="logo" alt=""></a></li>
             <li class="left">
                 <select id="theme-selector">
                     <option value="style.css">Light Theme</option>
@@ -45,34 +45,14 @@
     <iframe src="noclipwebsiteinstructions.html" frameborder="0" style="width: 400px; height: 400px;"></iframe>
     <script src="/theme-toggle.js"></script>
 
-    <div id="player-container">
-        <button id="toggle-btn"><span class="material-symbols-rounded">
-            music_note
-            </span></button>
-        <div id="music-player">
-            <button id="close-btn">✖</button>
-            <div class="container">
-                <input type="text" id="url-input" placeholder="Enter YouTube URL">
-                <button id="fetch-btn">Fetch Song</button><br>
-            </div><br>
-            <div id="song-info">
-                <img src="" alt="Song Image" id="song-image">
-                <span id="song-name">Waiting for Song...</span>
-            </div>
-            <div id="controls">
-                <button id="play-pause-btn" class="control-btn">
-                    <span class="material-icons-round" id="play-icon">play_circle</span>
-                    <span class="material-icons-round" id="pause-icon" style="display: none;">pause_circle</span>
-                </button>
-                <div id="volume-control">
-                    <span class="material-icons-round">volume_up</span>
-                    <input type="range" id="volume-slider" min="0" max="100" value="100">
-                </div>
-            </div>
-            <div id="playlist"></div>
-        </div>
-    </div>
-    <script src="/music.js"></script>
+    <script type="text/javascript">
+        (function(w,d,v3){
+        w.chaportConfig = {
+        appId : '66f216f3ab06b36764ed7aa4'
+        };
+        
+        if(w.chaport)return;v3=w.chaport={};v3._q=[];v3._l={};v3.q=function(){v3._q.push(arguments)};v3.on=function(e,fn){if(!v3._l[e])v3._l[e]=[];v3._l[e].push(fn)};var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://app.chaport.com/javascripts/insert.js';var ss=d.getElementsByTagName('script')[0];ss.parentNode.insertBefore(s,ss)})(window, document);
+        </script>
     
     <div id="player"></div>
     <a class="copyrighted-badge" title="Copyrighted.com Registered &amp; Protected" target="_blank" href="https://app.copyrighted.com/website/deFtquwaQCl2g1j8"><img alt="Copyrighted.com Registered &amp; Protected" border="0" width="125" height="25" srcset="https://static.copyrighted.com/badges/125x25/03_1_2x.png 2x" src="https://static.copyrighted.com/badges/125x25/03_1.png"></a><script src="https://static.copyrighted.com/badges/helper.js"></script>
