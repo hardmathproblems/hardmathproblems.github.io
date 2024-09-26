@@ -37,6 +37,11 @@ A great link hub to get places fast! We have Google stuff, other resources, game
 - Helps with everything, really
 - Joined in January
 
+### SprintingSnail
+- Co-Developer
+- Knows basic HTML and CSS, now improving knowledge
+- Have a good day :3
+
 ## Send a pull request if u wanna help btw.
 #### Dont read the commits, okay!
 ### byeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
