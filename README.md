@@ -40,7 +40,10 @@ A great link hub to get places fast! We have Google stuff, other resources, game
 ### SprintingSnail
 - Co-Developer
 - Knows basic HTML and CSS, now improving knowledge
+- Scratch account with over 100 followers
+- https://scratch.mit.edu/users/SprintingSnail/
 - Have a good day :3
+- Joined September 2024
 
 ## Send a pull request if u wanna help btw.
 #### Dont read the commits, okay!
