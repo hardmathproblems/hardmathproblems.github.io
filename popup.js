@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const popup = document.getElementById("popup");
     const popupContent = document.querySelector(".popup-content");
     const closeBtn = document.querySelector(".close-btn");
-    const audio = document.getElementById("audio");  // Reference to the audio element
 
     if (popup && popupContent && closeBtn) {
         // Show the popup with animation
@@ -12,8 +11,6 @@ document.addEventListener("DOMContentLoaded", function() {
         function closePopup() {
             // Slide up out animation
             popupContent.style.animation = "slideUpOut 0.5s forwards";
-
-            // Play audio when closing the popup
 
             // Hide the popup after the animation ends
             setTimeout(function() {
@@ -33,11 +30,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
         document.addEventListener("keydown", function(event) {
             if (event.key === "Escape") {
-                audio.play()
                 closePopup();
             }
-        });
+        }); 
+
     } else {
         console.error("One or more required elements not found.");
     }
+
+    window.onload = function() {
+        var audio = document.getElementById('audio');
+        audio.play()
+    };
 });
