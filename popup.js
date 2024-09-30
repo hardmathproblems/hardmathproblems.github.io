@@ -2,8 +2,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const popup = document.getElementById("popup");
     const popupContent = document.querySelector(".popup-content");
     const closeBtn = document.querySelector(".close-btn");
+    const audio = document.getElementById("audio");  // Reference to the audio element
 
-    if (popup && popupContent && closeBtn) {
+    if (popup && popupContent && closeBtn && audio) {
         // Show the popup with animation
         popup.style.display = "flex";
         popupContent.style.animation = "slideUp 0.5s forwards";
@@ -11,6 +12,9 @@ document.addEventListener("DOMContentLoaded", function() {
         function closePopup() {
             // Slide up out animation
             popupContent.style.animation = "slideUpOut 0.5s forwards";
+
+            // Play audio when closing the popup
+            audio.play();
 
             // Hide the popup after the animation ends
             setTimeout(function() {
