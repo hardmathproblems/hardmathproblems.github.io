@@ -40,8 +40,8 @@ document.addEventListener("DOMContentLoaded", function() {
         console.error("One or more required elements not found.");
     }
 
-    window.onload = function() {
-        var audio = document.getElementById('audio');
-        audio.play();
-    }
+window.onload = function() {
+    audio.play();
+};
+
 });
