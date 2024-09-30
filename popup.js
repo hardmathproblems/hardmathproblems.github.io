@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const closeBtn = document.querySelector(".close-btn");
     const audio = document.getElementById("audio");  // Reference to the audio element
 
-    if (popup && popupContent && closeBtn && audio) {
+    if (popup && popupContent && closeBtn) {
         // Show the popup with animation
         popup.style.display = "flex";
         popupContent.style.animation = "slideUp 0.5s forwards";
@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function() {
             popupContent.style.animation = "slideUpOut 0.5s forwards";
 
             // Play audio when closing the popup
-            audio.play();
 
             // Hide the popup after the animation ends
             setTimeout(function() {
@@ -34,6 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         document.addEventListener("keydown", function(event) {
             if (event.key === "Escape") {
+                audio.play()
                 closePopup();
             }
         });
