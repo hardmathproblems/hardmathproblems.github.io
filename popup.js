@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
             popupContent.style.animation = "slideUpOut 0.5s forwards";
 
             // Play audio when closing the popup
+            audio.play();
 
             // Hide the popup after the animation ends
             setTimeout(function() {
@@ -39,9 +40,4 @@ document.addEventListener("DOMContentLoaded", function() {
     } else {
         console.error("One or more required elements not found.");
     }
-
-window.onload = function() {
-    audio.play();
-};
-
 });
