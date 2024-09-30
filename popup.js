@@ -37,3 +37,5 @@ document.addEventListener("DOMContentLoaded", function() {
         console.error("One or more required elements not found.");
     }
 });
+
+audioElement.play();
