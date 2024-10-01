@@ -15,6 +15,6 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CLASSBOARD_SIGN_IN_WITH }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_EXCELLENT_GUARD_435619_I4 }}
           channelId: live
-          projectId: classboard-sign-in-with
+          projectId: excellent-guard-435619-i4
