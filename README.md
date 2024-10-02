@@ -3,7 +3,7 @@ A great link hub to get places fast! We have Google stuff, other resources, game
 
 ## Meet the Developers
 
-### Cobblesteve01
+### cobblesteve01
 - Founded Classboard
 - Current Owner
 - Does most of the development
@@ -23,7 +23,7 @@ A great link hub to get places fast! We have Google stuff, other resources, game
 - Joined November 16, 2023 (One day after launch)
 
   ### Bahabryra
-- Cheif Programmer of Classboard
+- Just a developer
 - Does just help with backround stuff nothing big (as of right now >:) hehe) 
 - Also has scratch profile scratch.mit.edu/users/bahabryra
 - Knows HTML, CSS, Basic JavaScript, and Python

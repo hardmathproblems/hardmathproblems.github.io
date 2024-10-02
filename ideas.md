@@ -1,2 +1,2 @@
 # Ideas
-  - Customise Classboard
+  - Customize Classboard 
