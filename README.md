@@ -19,7 +19,7 @@ A great link hub to get places fast! We have Google stuff, other resources, game
 - Co-Developer
 - Does a lot of development for mostly other pages than the hompage
 - Also has a YouTube channel
-- Knows HTML, CSS, JavaScript, and Python
+- Knows HTML, CSS, JavaScript, Godot, and Python
 - Bug fixes sometimes
 - Helped make forms
 - Joined November 16, 2023 (One day after launch)
