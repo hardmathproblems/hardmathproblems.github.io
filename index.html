@@ -8,6 +8,7 @@
     <title>Classboard</title>
     <link id="theme-style" rel="stylesheet" href="/style.css">
     <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> <!--Don't remove jquery becuase it acctuly works :)-->
     <script src="popup.js"></script> <!--Don't defer so popup loads before html :)-->
     <script src="theme-toggle.js" defer></script>
     <script src="index.js" defer></script>
@@ -172,7 +173,9 @@
 
                 <div id="games-area">
                     <h2 class="link-group-label" style="margin-bottom: -15px;">Games</h2>
-                    <h4><i>Press N to toggle visibility</i></h4>
+                    
+                    <a target="_blank"><button class="link" onclick="teacherMode();">Hide</button></a>
+                    <!--DONT DELETE THIS ACCTULLY WORKS-->
 
                     <div class="container">
                         <a href="https://sites.google.com/vhcsk12.com/xcel" target="_blank"><button class="link">XCEL+</button></a>
