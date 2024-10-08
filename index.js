@@ -13,7 +13,7 @@ function figureItOut(){
 function teacherMode(){
     $('#games-area').css('display', 'none')
 };
-
+// Cobblesteve dont recode the function its fine dont screw it up
 document.addEventListener('keydown', function(event) {
     if (event.key === 'n' || event.key === 'N') {
         teacherMode();
