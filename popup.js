@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
         closeBtn.addEventListener("click", function() {
             closePopup();
-            <audio controls autoplay src="/audio/studymusic.mp3"></audio>
         });
         
 
