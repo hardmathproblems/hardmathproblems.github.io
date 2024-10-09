@@ -22,7 +22,6 @@ document.addEventListener("DOMContentLoaded", function() {
             closePopup();
         });
         
-
         window.addEventListener("click", function(event) {
             if (event.target === popup) {
                 closePopup();
