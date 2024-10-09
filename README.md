@@ -38,7 +38,7 @@ A great link hub to get places fast! We have Google stuff, other resources, game
 ### SprintingSnail
 - Developer
 - Knows intermediate HTML and CSS, now improving knowledge
-- Learning JavaScript 
+- Learning C++
 - Mostly fixes bugs, sometimes adds pages
 - Scratch account with over 100 followers
 - https://scratch.mit.edu/users/SprintingSnail/
