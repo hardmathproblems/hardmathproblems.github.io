@@ -10,12 +10,16 @@ function figureItOut(){
     }, 2500)
 };
 
-function teacherMode(){
-    $('#games-area').css('display', 'none')
-};
-// Cobblesteve dont recode the function its fine dont screw it up
 document.addEventListener('keydown', function(event) {
     if (event.key === 'n' || event.key === 'N') {
+        const gamesArea = document.getElementById('games-area');
+        if (gamesArea) {
+            if (gamesArea.style.display === 'none') {
+                gamesArea.style.display = 'block';
+            } else {
+                gamesArea.style.display = 'none';
+            }
+        }
         teacherMode();
     }
 });
