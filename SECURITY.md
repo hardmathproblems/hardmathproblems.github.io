@@ -5,4 +5,3 @@
 We are now Registered, Protected, and Monitered by Copyright.com fork with caution
 
 More info: [ClassBoard Is CopyRighted](https://app.copyrighted.com/work/GVUuNRcaQUAzCt3T)
-it will download a file double click in your files app to view
