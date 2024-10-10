@@ -876,3 +876,216 @@ h4{
     font-weight: 500;
     cursor: initial;
 }
+
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #0c4466; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    z-index: 1000; /* Ensure it's on top of other elements */
+    border-radius: 10000000px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+
+/* Dialog styles */
+.dialog {
+    display: none;
+    position: fixed;
+    bottom: 80px; /* Above the button */
+    right: 20px;
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+/* Overlay styles (assuming you have an overlay) */
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 0, 0);
+    display: none; /* Hidden by default */
+}
+
+/* Show overlay */
+.show {
+    display: block; /* Show when the class is added */
+}
+
+/* Additional styles for hidden */
+.hidden {
+    display: none;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+#overlay.show {
+    opacity: 1;
+    pointer-events: all;
+}
+
+#content {
+    text-align: center;
+    color: white;
+}
+
+#content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    pointer-events: none;
+    display: none;
+}
+
+.flutter-spinner {
+    width: 50px;
+    height: 50px;
+    border: 6px solid rgba(0, 0, 0, 0.1); /* Light gray border */
+    border-top-color: #3498db; /* Blue arc */
+    border-radius: 50%;
+    animation: spin 1.2s ease-in-out infinite; /* Smooth spinning */
+    scale: 150%;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    max-width: 600px; /* Set a maximum width for the container */
+    margin: auto; /* Center the container horizontally */
+}
+      
+          /* Container for the box */
+.water-box {
+    position: relative;
+    width: 600px;
+    height: 100px;
+    border-radius: 25px;
+    overflow: hidden; /* Hide overflow for rounded corners */
+    background-color: #3498db; /* Solid background color */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Padding inside the box */
+    font-family: Inter;
+    font-weight: 600;
+    transition: 0.3s;
+}
+      
+          /* Water animation (with parallax effect) */
+.water-container { /* Nested container for parallax */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-attachment: fixed; /* Ensure container stays in place */
+    font-family: Inter;
+}
+      
+.water-animation {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: 0;
+    left: 0;
+    background: radial-gradient(circle, rgba(30, 144, 255, 0.6) 0%, rgba(135, 206, 250, 0.3) 80%);
+    animation: wave 6s infinite linear;
+    opacity: 0.5;
+    z-index: 0; /* Behind the text and button */
+}
+      
+.wave { /* Animation for waves */
+    background-size: 500% 500%; /* Large gradient for smooth animation */
+    background-attachment: scroll; /* Make waves scroll with the page */
+}
+      
+@keyframes wave {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 0%;
+    }
+}
+      
+          /* Text styles */
+.water-box-text {
+    color: white;
+    font-size: 20px;
+    z-index: 1; /* Above the animation */
+}
+      
+          /* Button styles */
+.learn-more-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    z-index: 1; /* Above the animation */
+    transition: background-color 0.3s;
+    height: 50px;
+    font-size: 15px;
+    transition: 0.2s;
+    width: 200px;
+    font-family: Inter;
+    font-weight: 500;
+    margin-left: 20px;
+}
+      
+.learn-more-button:hover {
+    scale: 105%;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.404);
+}
+
+.water-box:hover {
+    scale: 103%;
+}
