@@ -1,4 +1,4 @@
-function duolingoAlert(){
+function duolingoAlert() {
     alert('Be Warned...');
     alert('This Is A Point Of No Return...');
 };
@@ -24,6 +24,5 @@ document.addEventListener('keydown', function(event) {
                 gamesArea.style.display = 'none';
             }
         }
-        teacherMode();
     }
 });
