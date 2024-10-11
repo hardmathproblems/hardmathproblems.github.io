@@ -1,63 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Classplay - Games</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
-    <style>
-        .game-card {
-            position: relative; /* Makes the overlay element position itself relative to the image */
-            overflow: hidden; /* Hides any overflow content from the overlay */
-          }
-          
-          .game-card img {
-            width: 100%; /* Adjust width as needed */
-            height: auto;  /* Adjust height as needed */
-            border-radius: 20px;
-          }
-          
-          .game-title-overlay {
-            position: absolute; /* Positions the overlay on top of the image */
-            bottom: 0; /* Places the overlay at the bottom */
-            left: 0; /* Positions the overlay to the left edge */
-            right: 0; /* Positions the overlay to the right edge */
-            background-color: rgba(0, 0, 0, 0.8); /* Sets a black background with 50% transparency */
-            color: white; /* Sets text color to white */
-            padding: 10px; /* Adds padding to the overlay content */
-            opacity: 0; /* Hides the overlay initially */
-            transition: opacity 0.2s ease-in-out; /* Creates a smooth fade-in effect on hover */
-            border-bottom-left-radius: 20px;
-            border-bottom-right-radius: 20px;
-            max-width: 130px;
-          }
-          
-          .game-card:hover .game-title-overlay {
-            opacity: 1; /* Reveals the overlay on hover */
-            bottom: 0;
-          }
-          
-          .game-title-overlay span {
-            display: block; /* Makes the title span take up the full width */
-            text-align: center; /* Centers the text */
-            font-weight: bold; /* Makes the title bold */
-          }
-      </style>
-    </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classplay - Games</title>
+  <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
-    
-</body>
-</html>
   
-<body>
-  <div class="game-card">
-    <a href="games/dadish3/index.html">
-      <img src="img/dadish3.png" style="width: 150px;" alt="Game 1">
-    </a>
-    <div class="game-title-overlay">
-      <span>Dadish 3</span>
+  <nav>
+    <ul>
+        <a href="/index.html"><img src="/img/favicon.png" class="github-icon" style="margin-left: 10px; height: 30px; margin-top: -2px;" alt=""></a>
+        <li><a href="classplay.html">Home</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="apps.html">Apps</a></li>
+        <a href="https://github.com/hardmathproblems/classplay" target="_blank"><img src="/img/github.png" style="margin-top: -2px;" class="github-icon"></a>
+    </ul>    
+</nav>
+
+
+<center>
+  <h1 class="title">Games</h1>
+</center>
+
+
+<div class="games-container">
+
+  <div class="container">
+
+    <div class="game-card">
+      <a href="games/dadish/index.html">
+        <img src="img/dadish.webp" style="width: 150px;" alt="Dadish 3">
+      </a>
+      <div class="game-title-overlay">
+        <span>Dadish</span>
+      </div>
     </div>
+
+    <div class="game-card">
+      <a href="games/dadish3/index.html">
+        <img src="img/dadish3.png" style="width: 150px;" alt="Dadish 3">
+      </a>
+      <div class="game-title-overlay">
+        <span>Dadish 3</span>
+      </div>
+    </div>
+
   </div>
-  </body>
+
+</div>
+
+</body>
 </html>

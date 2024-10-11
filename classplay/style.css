@@ -67,12 +67,7 @@ nav a:hover::after {
 }
 
 .github-icon:hover {
-  background-color: #494949;
-  display: flex;
-  border-radius: 100px;
-  padding: 12px;
-  transform: translate(12px, -11.5px);
-  transform: scale(1.2px);
+  scale: 125%;
 }
 
 .logo {
@@ -223,4 +218,53 @@ button.inner {
   border-radius: 10000px;
   height: 50px;
   width: 200px;
+}
+
+
+.game-card {
+  position: relative; /* Makes the overlay element position itself relative to the image */
+  overflow: hidden; /* Hides any overflow content from the overlay */
+  margin-left: px;
+  margin-right: 7px;
+}
+
+.game-card img {
+  width: 100%; /* Adjust width as needed */
+  height: auto;  /* Adjust height as needed */
+  border-radius: 20px;
+}
+
+.game-title-overlay {
+  position: absolute; /* Positions the overlay on top of the image */
+  bottom: 0; /* Places the overlay at the bottom */
+  left: 0; /* Positions the overlay to the left edge */
+  right: 0; /* Positions the overlay to the right edge */
+  background-color: rgba(0, 0, 0, 0.8); /* Sets a black background with 50% transparency */
+  color: white; /* Sets text color to white */
+  padding: 10px; /* Adds padding to the overlay content */
+  opacity: 0; /* Hides the overlay initially */
+  transition: opacity 0.2s ease-in-out; /* Creates a smooth fade-in effect on hover */
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  max-width: 130px;
+}
+
+.game-card:hover .game-title-overlay {
+  opacity: 1; /* Reveals the overlay on hover */
+  bottom: 0;
+}
+
+.game-title-overlay span {
+  display: block; /* Makes the title span take up the full width */
+  text-align: center; /* Centers the text */
+  font-weight: bold; /* Makes the title bold */
+}
+
+.title {
+  font-size: 55px;
+}
+
+.games-container {
+  margin: auto;
+  width: 1080px;
 }
