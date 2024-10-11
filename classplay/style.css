@@ -4,18 +4,8 @@ body {
 }
 
 @font-face {
-  font-family: SF Pro-Bold;
-  src: url(/fonts/SF-Pro-Display-Bold.otf);
-}
-
-@font-face {
-  font-family: SF Pro-Medium;
-  src: url(/fonts/SF-Pro-Display-Medium.otf);
-}
-
-@font-face {
-  font-family: SF Pro-Black;
-  src: url(/fonts/SF-Pro-Display-Black.otf);
+  font-family: Rubik;
+  src: url(/fonts/rubik.ttf);
 }
 
 nav {
@@ -26,20 +16,23 @@ nav {
   color: white;
   border-radius: 100px;
   box-shadow: 0 0 8px black;
+  font-weight: 500;
 }
   
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  font-weight: 600;
 }
   
 nav li {
   display: inline-block;
   margin-right: 1rem;
   position: relative;
-  font-family: SF Pro-Bold;
+  font-family: Rubik;
   font-size: 1.2rem;
+  font-weight: 500;
 }
   
 nav a {
@@ -47,7 +40,8 @@ nav a {
   text-decoration: none;
   position: relative;
   overflow: hidden;
-  font-family: SF Pro-Bold;
+  font-family: Rubik;
+  font-weight: 500;
 }
   
 nav a::after {
@@ -94,7 +88,6 @@ nav a:hover::after {
 .home-title {
   font-family: SF Pro-Black;
   font-size: 65px;
-  transform: translateY(70px);
 }
 
 .rainbow-button {
@@ -221,7 +214,7 @@ nav a:hover::after {
 }
 
 h1.cardtext {
-  font-family: SF Pro-Bold;
+  font-family: Rubik;
   font-size: 40px;
 }
 
