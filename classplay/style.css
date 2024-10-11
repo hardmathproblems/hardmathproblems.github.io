@@ -224,8 +224,9 @@ button.inner {
 .game-card {
   position: relative; /* Makes the overlay element position itself relative to the image */
   overflow: hidden; /* Hides any overflow content from the overlay */
-  margin-left: px;
-  margin-right: 7px;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: 0.2s;
 }
 
 .game-card img {
@@ -252,6 +253,10 @@ button.inner {
 .game-card:hover .game-title-overlay {
   opacity: 1; /* Reveals the overlay on hover */
   bottom: 0;
+}
+
+.game-card:hover {
+  scale: 110%;
 }
 
 .game-title-overlay span {
