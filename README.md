@@ -1,6 +1,8 @@
 # Classboard
 A great link hub to get places fast! We have Google stuff, other resources, games, developer tools, and more! Also featuring a newsletter, polls, and proxies!
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=&duration=3000&pause=400&color=FF0000&width=435&lines=Warning%3A+Cool+Developers+Below;SprintingSnail+is+cool;Use+Classboard+guys;Sub+to+cobblesteve01)](https://git.io/typing-svg)
+
 ## Meet the Developers
 
 ### cobblesteve01
