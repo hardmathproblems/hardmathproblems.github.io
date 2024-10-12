@@ -1,7 +1,7 @@
 # Classboard
 A great link hub to get places fast! We have Google stuff, other resources, games, developer tools, and more! Also featuring a newsletter, polls, and proxies!
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=&duration=3000&pause=400&color=FF0000&width=435&lines=Warning%3A+Cool+Developers+Below;SprintingSnail+is+cool;Use+Classboard+guys;Sub+to+cobblesteve01)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=&duration=2500&pause=650&color=FF0000&width=435&lines=Warning%3A+Cool+Developers+Below;Warning%3A+SprintingSnail+is+cool;Use+Classboard+guys;Sub+to+cobblesteve01)](https://git.io/typing-svg)
 
 ## Meet the Developers
 
@@ -10,6 +10,7 @@ A great link hub to get places fast! We have Google stuff, other resources, game
 - Current Owner
 - Head Developer
 - Does most of the development
+- Classboard Support guy
 - Has a YouTube channel
 - Knows HTML, CSS, and JavaScript
 - Main bug fixer
@@ -29,6 +30,8 @@ A great link hub to get places fast! We have Google stuff, other resources, game
 ### Bahabryra
 - Senior Developer
 - Just helps with background stuff, nothing big (as of right now >:) hehe ) 
+- Also a Classboard Support guy
+- Has grammar so bad that bro needs SprintingSnail's help
 - Also has Scratch profile 
 - https://scratch.mit.edu/users/bahabryra
 - Knows HTML, CSS, Basic JavaScript, and Python
@@ -42,6 +45,7 @@ A great link hub to get places fast! We have Google stuff, other resources, game
 - Knows intermediate HTML and CSS, now improving knowledge
 - Learning C++
 - Mostly fixes bugs, sometimes adds pages
+- Getting tired of fixing Bahabrya's grammar
 - Scratch account with over 100 followers
 - https://scratch.mit.edu/users/SprintingSnail/
 - Have a good day :3
