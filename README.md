@@ -45,7 +45,7 @@ A great link hub to get places fast! We have Google stuff, other resources, game
 - Knows intermediate HTML and CSS, now improving knowledge
 - Learning C++
 - Mostly fixes bugs, sometimes adds pages
-- Getting tired of fixing Bahabrya's grammar
+- Getting tired of fixing Bahabryra's grammar
 - Scratch account with over 100 followers
 - https://scratch.mit.edu/users/SprintingSnail/
 - Have a good day :3
