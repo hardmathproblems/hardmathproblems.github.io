@@ -1,9 +1,8 @@
 # Classboard
 A great link hub to get places fast! We have Google stuff, other resources, games, developer tools, and more! Also featuring a newsletter, polls, and proxies!
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=&duration=2500&pause=950&color=FF0000&width=500&lines=Warning:+Cool+Developers+Below;Warning:+SprintingSnail+is+cool;Use+Classboard+guys;Sub+to+cobblesteve01;Follow+bahabryra;Comment+on+AnOkayGameDev%27s+Scratch+projects)]
+![Typing SVG](https://readme-typing-svg.demolab.com/?font=&duration=2500&pause=950&color=FF0000&width=500&lines=Warning:+Cool+Developers+Below;Warning:+SprintingSnail+is+cool;Use+Classboard+guys;Sub+to+cobblesteve01;Follow+bahabryra;Comment+on+AnOkayGameDev%27s+Scratch+projects)
 
-(Guys stop changing the typing SVG -Sprinting:#)
 
 ## Meet the Developers
 
