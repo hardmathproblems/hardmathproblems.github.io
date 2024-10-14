@@ -723,7 +723,7 @@ h4{
 }
 
 #volume-slider {
-    -webkit-appearance: none;
+    -webkit-appearance:none;
     width: 230px;
     height: 6px;
     background: #d3d3d3;
@@ -1076,7 +1076,7 @@ h4{
     font-size: 15px;
     transition: 0.2s;
     width: 200px;
-    font-family: Inter;
+    font-family: Inter,sans-serif;
     font-weight: 500;
     margin-left: 20px;
 }
@@ -1087,5 +1087,5 @@ h4{
 }
 
 .water-box:hover {
-    scale: 103%;
+    scale: 105%;
 }
