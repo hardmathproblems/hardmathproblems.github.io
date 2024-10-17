@@ -18,6 +18,7 @@ nav {
   border-radius: 100px;
   box-shadow: 0 0 8px black;
   font-weight: 500;
+  font-family: Rubik;
 }
   
 nav ul {
@@ -82,7 +83,7 @@ nav a:hover::after {
 }
 
 .home-title {
-  font-family: SF Pro-Black;
+  font-family: Rubik;
   font-size: 65px;
 }
 
@@ -203,6 +204,7 @@ nav a:hover::after {
   justify-content: center;
   display: flex;
   transition: 0.4s;
+  font-family: Rubik;
 }
 
 .card:hover {
@@ -219,6 +221,7 @@ button.inner {
   border-radius: 10000px;
   height: 50px;
   width: 200px;
+  font-family: Rubik;
 }
 
 
@@ -228,6 +231,7 @@ button.inner {
   margin-left: 10px;
   margin-right: 10px;
   transition: 0.2s;
+  font-family: Rubik;
 }
 
 .game-card img {
@@ -249,6 +253,7 @@ button.inner {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   max-width: 130px;
+  font-family: Rubik;
 }
 
 .game-card:hover .game-title-overlay {
@@ -263,7 +268,8 @@ button.inner {
 .game-title-overlay span {
   display: block; /* Makes the title span take up the full width */
   text-align: center; /* Centers the text */
-  font-weight: bold; /* Makes the title bold */
+  font-weight: medium; /* Makes the title bold */
+  font-family: Rubik;
 }
 
 .title {
@@ -273,4 +279,28 @@ button.inner {
 .games-container {
   margin: auto;
   width: 1080px;
+}
+
+html {
+  font-family: Rubik;
+}
+
+h1 {
+  font-family: Rubik;
+}
+
+p {
+  font-family: Rubik;
+}
+
+h2 {
+  font-family: Rubik;
+}
+
+button {
+  font-family: Rubik;
+}
+
+a {
+  font-family: Rubik;
 }
