@@ -15,6 +15,11 @@ body {
     src: url(fonts/RobotoCondensed.ttf);
 }
 
+@font-face {
+    font-family: Inter;
+    src: url(/fonts/inter.ttf);
+}
+
 .banner-home {
     background-image: url('img/banners/home.png');
     color: rgb(225, 222, 222);
