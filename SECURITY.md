@@ -1,7 +1,7 @@
 # Plz don't hack
 #### That's a no no
 #### I ❤ Drake!!!!!!!!!!!!!!!!!! :)
-##### Bye🤫🧏🏻‍♂️Bye🗿
+##### ByeBye🗿
 ##### 🗣🔥🔥🔥
 
 We are now Registered, Protected, and Monitered by Copyright.com fork with caution
